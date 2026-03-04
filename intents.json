@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning"],
+      "response": "Hello! Welcome to our coaching center. How can I help you?"
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses do you offer", "tell me about your courses", "subjects available"],
+      "response": "We offer classes for JEE, NEET, CET, and 10th & 12th boards (CBSE/State)."
+    },
+    {
+      "tag": "fees",
+      "patterns": ["what are the fees", "how much does it cost", "fee structure"],
+      "response": "The fees vary per course. For JEE and NEET: ₹50,000/year. For boards: ₹25,000/year."
+    },
+    {
+      "tag": "timings",
+      "patterns": ["what are your class timings", "when are the classes", "class schedule"],
+      "response": "Our classes run from 8 AM to 7 PM in batches. Please specify your course for timing details."
+    },
+    {
+      "tag": "location",
+      "patterns": ["where are you located", "your address", "location of the center"],
+      "response": "We are located at ABC Road, XYZ Nagar, near City Library, Pune."
+    }
+  ]
+}
